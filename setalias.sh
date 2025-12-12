@@ -1,6 +1,6 @@
 #!/bin/zsh
 echo  "The aliases available for you Currently are :\n"
-$(alias) | echo 	#this command shows the currently set aliases
+#$(alias) | echo 	#this command shows the currently set aliases
 read -p "Do you want to add more aliases permanently?   y/n  " choice 	#choice stores the choice :)
 if [ "$choice" = 'y' ] || [ "$choice" = 'Y' ] || [ "$choice" = 'yes' ] || [ "$choice" = 'Yes' ] ; then
 	echo "PLEASE ADD ALIAS OF YOUR CHOICE IN THE FILE ABOUT TO OPEN\n IN the format --  \e[1m  alias chosen_name='original_command' \e[0m\n into any line after first two (\e[4mpreferred very last lines\e[0m) And make sure to save the file\n"
