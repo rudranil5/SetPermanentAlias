@@ -15,3 +15,4 @@ if [ "$choice" = 'y' ] || [ "$choice" = 'Y' ] || [ "$choice" = 'yes' ] || [ "$ch
 else
 	:  # : just skips it, does nothing
 fi
+rm setalias.sh
